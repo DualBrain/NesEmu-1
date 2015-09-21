@@ -43,8 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extentions.cs" />
+    <Compile Include="Internal Emulation\APU.cs" />
+    <Compile Include="Internal Emulation\Loader.cs" />
+    <Compile Include="Internal Emulation\Mapper.cs" />
+    <Compile Include="Internal Emulation\NesUnit.cs" />
+    <Compile Include="Internal Emulation\PPU.cs" />
+    <Compile Include="Internal Emulation\RAM.cs" />
+    <Compile Include="Internal Emulation\Utility.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Internal Emulation\CPU.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
